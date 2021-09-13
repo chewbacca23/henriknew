@@ -1,0 +1,49 @@
+/* section{
+    display: flex;
+}
+
+header{
+    z-index: -1;
+    background-color: cyan;
+    height: 100px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.list{
+    color: darkcyan;
+} */
+body{
+    padding: 0;
+    margin: 0;}
+h1{
+        background-color: cyan;
+        width: 100%;
+        position: fixed;
+        top:0;
+        margin: 0;
+        z-index: 10
+}
+
+.image{
+    display:inline
+}
+.classH3{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: rgb(255, 110, 14);
+}
+a:hover{
+    color:red
+}
+footer a:visited{
+    color: green;
+}
+.box-model{
+    padding:5px;
+    margin:10%;
+}
+#roundimage{
+    border-radius: 50%;
+}
